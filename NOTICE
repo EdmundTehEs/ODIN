@@ -1,0 +1,15 @@
+ODIN
+====
+
+ODIN is a personal fork of OpenJarvis, customized and maintained by
+Edmund Thaddeus — https://github.com/EdmundTehEs/ODIN
+
+Based on OpenJarvis — https://github.com/open-jarvis/OpenJarvis
+Copyright (c) OpenJarvis contributors (Stanford Scaling Intelligence Lab / Hazy Research).
+Licensed under the Apache License, Version 2.0.
+
+Modifications in this fork (branding, configuration, and personal customizations)
+are Copyright (c) 2026 Edmund Thaddeus, and are likewise licensed under the
+Apache License, Version 2.0. See the LICENSE file for the full terms.
+
+This product includes software developed by the OpenJarvis project.

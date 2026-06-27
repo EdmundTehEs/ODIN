@@ -1,3 +1,6 @@
+> **ODIN** — a personal fork of [OpenJarvis](https://github.com/open-jarvis/OpenJarvis), customized by Edmund. Licensed under Apache 2.0; see NOTICE for attribution.
+
+
 <div align="center">
   <img alt="OpenJarvis" src="assets/OpenJarvis_Horizontal_Logo.png" width="400">
 

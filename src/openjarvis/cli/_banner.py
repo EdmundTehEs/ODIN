@@ -1,27 +1,22 @@
-"""Startup banner — OpenJarvis wordmark + tagline."""
+"""Startup banner — ODIN wordmark + tagline (ODIN is a personal fork of OpenJarvis)."""
 
 from __future__ import annotations
 
-# "OpenJarvis" rendered in the figlet "standard" font. Stored as plain text
-# (no inline Rich markup) so the backslashes in the glyphs don't collide with
-# Rich's [tag] markup or Python raw-string escaping — colour is applied at
-# print time via a style argument. The "standard" font renders a clearly
-# readable capital J (the bottom-left \___/ hook), unlike the cramped prior
-# art where the J read as an I.
+# "ODIN" in the figlet "standard" font, stored as plain text so the glyph
+# backslashes don't collide with Rich markup; colour is applied at print time.
 _WORDMARK = (
-    '  ___                       _                  _     ',
-    ' / _ \\ _ __   ___ _ __     | | __ _ _ ____   _(_)___ ',
-    "| | | | '_ \\ / _ \\ '_ \\ _  | |/ _` | '__\\ \\ / / / __|",
-    '| |_| | |_) |  __/ | | | |_| | (_| | |   \\ V /| \\__ \\',
-    ' \\___/| .__/ \\___|_| |_|\\___/ \\__,_|_|    \\_/ |_|___/',
-    '      |_|                                            ',
+    '  ___  ____ ___ _   _ ',
+    ' / _ \\|  _ \\_ _| \\ | |',
+    '| | | | | | | ||  \\| |',
+    '| |_| | |_| | || |\\  |',
+    ' \\___/|____/___|_| \\_|',
 )
 
-_TAGLINE = "Personal AI, On Personal Devices"
+_TAGLINE = "ODIN — Personal AI, in service of sir."
 
 
 def print_banner(quiet: bool = False) -> None:
-    """Print the OpenJarvis startup banner. No-op when quiet."""
+    """Print the ODIN startup banner. No-op when quiet."""
     if quiet:
         return
     try:
@@ -35,5 +30,5 @@ def print_banner(quiet: bool = False) -> None:
     except ImportError:
         for line in _WORDMARK:
             print(line)
-        print(f"      {_TAGLINE}")
+        print(f"      {Edmund's}")
         print()
