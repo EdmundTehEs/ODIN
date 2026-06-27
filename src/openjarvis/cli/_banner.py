@@ -12,7 +12,7 @@ _WORDMARK = (
     ' \\___/|____/___|_| \\_|',
 )
 
-_TAGLINE = "ODIN — Personal AI, in service of sir."
+_TAGLINE = "ODIN - Edmund's Personal AI, in service of sir."
 
 
 def print_banner(quiet: bool = False) -> None:
@@ -30,5 +30,5 @@ def print_banner(quiet: bool = False) -> None:
     except ImportError:
         for line in _WORDMARK:
             print(line)
-        print(f"      {Edmund's}")
+        print(f"      {_TAGLINE}")
         print()
