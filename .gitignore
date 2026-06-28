@@ -130,3 +130,8 @@ learning.db
 minion_logs/
 *.oj-debug.json
 oj-debug.*.json
+
+# secrets
+*.env
+secrets.env
+.env
