@@ -143,3 +143,13 @@ except ImportError:
     pass
 
 __all__ = ["BaseTool", "ToolExecutor", "ToolSpec"]
+
+try:
+    import openjarvis.tools.obsidian_read  # noqa: F401
+except ImportError:
+    pass
+
+try:
+    import openjarvis.tools.obsidian_write  # noqa: F401
+except ImportError:
+    pass
